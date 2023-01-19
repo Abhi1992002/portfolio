@@ -1,0 +1,65 @@
+.homepage{
+    color: white;
+    width: 100vw;
+    position: relative;
+
+    height: 100vh;
+}
+
+.homepage_detail{
+    width: 80vw;
+    /* min-width: 810px; */
+    margin: 60px auto;
+    position: relative;
+    top: 100px;
+    /* left: -100px; */
+}
+
+.homepage .homepage_bigimage{
+    position: absolute;
+    z-index: -10;
+    top: -30px;
+    left: 45vw;
+    width: 1012.93px;
+    height: 1024px;
+    overflow: cover;
+
+}
+.homepage_smallimage{
+    position: absolute;
+    top: 500px;
+    left: 35vw;
+    z-index: -11;
+}
+
+.homepage_detail p{
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 10px;
+     
+}
+
+.homepage_detail button{
+    margin: 10px;
+    font-family: 'Fira Code';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 30px;
+    width: 500px;
+    background-color:#0E1116 ;
+    color: white;
+    
+}
+
+.homepage_detail .home_small{
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+}
+

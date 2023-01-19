@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+.home_gradient{
+  background: -webkit-linear-gradient(#CC2B5E, #753A88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about_gradient{
+  background: -webkit-linear-gradient(#DE6262, #FFB88C);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.project_gradient{
+  background: -webkit-linear-gradient(#56AB2F, #A8E063);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact_gradient{
+  background: -webkit-linear-gradient(#009FFD, #2A2A72);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.resume_gradient{
+  background: -webkit-linear-gradient(#F4C4F3, #FC67FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home_border{
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #CC2B5E, #753A88) 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body{
+  font-family: 'Fira Code', monospace;
+  background-color: #0E1116;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.App img{
+  position: absolute;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
