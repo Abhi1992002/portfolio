@@ -1,0 +1,12 @@
+.aboutpage_heading h1{
+    
+    font-family: 'Fira Code';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 46px;
+}
+.aboutpage_heading{
+    width: 121px;
+    margin: 30px auto;
+}
